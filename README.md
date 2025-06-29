@@ -12,6 +12,25 @@ DURATION: 6 WEEKS
 
 MENTOR: NEELA SANTOSH
 
+# INSTALLATION
+Make sure you have NodeJs(>18) version installed
+
+Clone repo
+
+git clone https://github.com/satendra02/react-chrome-extension.git
+Go to the react-chrome-extension directory and run
+
+yarn install
+Now build the extension using
+
+yarn build
+You will see a build folder generated inside [PROJECT_HOME]
+
+To avoid running yarn build after updating any file, you can run
+
+yarn watch
+which listens to any local file changes, and rebuilds automatically.
+
 OUTPUT
 
 Adding React app extension to Chrome
